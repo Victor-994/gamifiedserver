@@ -15,7 +15,7 @@ const PAYSTACK_HEADERS = {
 // Paystack expects amounts in the smallest currency unit (Kobo for NGN, Cents for USD)
 const PRICES = {
   ngn: { 
-    month: 1500 * 100, // ₦1,500.00 -> 150,000 kobo
+    month: 100 * 100, // ₦1,500.00 -> 150,000 kobo
     year: 10000 * 100  // ₦10,000.00 -> 1,000,000 kobo
   },
   usd: { 
